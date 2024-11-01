@@ -1,6 +1,7 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - (2 * var(--padding-x)));
+  /* above is the same as using max-widht: 375px but width being 2 times the padding-x variable. When centered, it divides the total padding spacing in both sides*/
 
   margin-inline: auto;
   border: 1px solid purple;
