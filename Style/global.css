@@ -1,7 +1,43 @@
-:root {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+:root {
+  /*FONTS*/
+  --ff-sans: 'Inter', system-ui, sans-serif;
+  --fw-base: 400;
+  --fw-md: 500;
+  --fw-bold: 800;
+  
+  /*FONT SIZES*/
+  --ff-sm: 0.875rem;
+  --ff-base: 1rem;
+  --ff-md: 1.25rem;
+  --ff-xd: 2rem;
+  --ff-2xd: 2.5rem;
+  
+  /*COLORS*/
+  /*BASIC COLORS*/
+  --bg-color: #09090B;
+  --surface-color: #18181B;
+  --stroke-color: #27272A;
+  
+  /*COLORFUL COLORS*/
+  /*--brand-gradient: ;*/
+  --brand-color-primary: #F7B733;
+  --brand-color-secondary: #FC4A1A;
+  
+  /*FONT COLORS*/
+  --text-color-secondary: #A1A1AA;
+  --text-color-primary: #F4F4F5;
 }
