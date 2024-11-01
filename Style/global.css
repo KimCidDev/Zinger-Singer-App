@@ -40,6 +40,9 @@
   /*FONT COLORS*/
   --text-color-secondary: #A1A1AA;
   --text-color-primary: #F4F4F5;
+
+  /*DEFAULT SPACING*/
+  --padding-x: 1.5rem;
 }
 
 html {
@@ -89,5 +92,7 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xd: 3rem;
     --fs-2xd: 4rem;
+
+    --padding-x: 2rem;
   }
 }
