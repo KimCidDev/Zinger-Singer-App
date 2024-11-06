@@ -43,6 +43,10 @@
 
   /*DEFAULT SPACING*/
   --padding-x: 1.5rem;
+
+  --padding-y: 1rem;
+  --padding-y-boxes: 1.rem;
+  --padding-y-lg: 3rem;
 }
 
 html {
@@ -94,5 +98,10 @@ ul[role="list"] {
     --fs-2xd: 4rem;
 
     --padding-x: 2rem;
+
+    --padding-y: 1.5rem;
+    --padding-y-boxes: 2.5.rem;
+    --padding-y-lg: 5rem;
+
   }
 }
