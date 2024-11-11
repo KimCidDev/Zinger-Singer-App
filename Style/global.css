@@ -15,6 +15,8 @@
 :root {
   /*FONTS*/
   --ff-sans: 'Inter', system-ui, sans-serif;
+
+  /*FONT WEIGHTS*/
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 800;
@@ -31,6 +33,7 @@
   --bg-color: #09090B;
   --surface-color: #18181B;
   --stroke-color: #27272A;
+  --bg-white-color: #F4F4F5;
   
   /*COLORFUL COLORS*/
   /*--brand-gradient: ;*/
@@ -40,6 +43,7 @@
   /*FONT COLORS*/
   --text-color-secondary: #A1A1AA;
   --text-color-primary: #F4F4F5;
+  /*--text-color-button: #09090B; could be like this or use a variable inside Style/button.css referencing --bg-color*/ 
 
   /*DEFAULT SPACING*/
   --padding-x: 1.5rem;
