@@ -24,6 +24,12 @@
   --btn-text-color: var(--surface-color);
 }
 
+.btn[aria-label] {
+  &::after {
+    content: attr(aria-label)
+  }
+}
+
 .btn-sm {
   padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
