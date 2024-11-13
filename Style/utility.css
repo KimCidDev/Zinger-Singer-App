@@ -4,7 +4,7 @@
   /* above is the same as using max-widht: 375px but width being 2 times the padding-x variable. When centered, it divides the total padding spacing in both sides*/
 
   margin-inline: auto;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .flex {
@@ -17,6 +17,10 @@
 
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.rem;
 }
 
 .padding-y {
@@ -38,6 +42,10 @@
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.items-center {
+  align-items: center;
 }
 
 @media (width >= 80em) {  
