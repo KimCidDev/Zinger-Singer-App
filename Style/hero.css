@@ -1,0 +1,11 @@
+#hero {
+  text-align: center;
+
+  &img[src*="bars"] {
+    width: 100rem;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+}
