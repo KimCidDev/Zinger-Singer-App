@@ -1,11 +1,22 @@
 #hero {
   text-align: center;
 
-  &img[src*="bars"] {
-    width: 100rem;
+  & img[src*="bars"] {
+    width: 12rem;
   }
 
   .buttons {
     justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (width >= 80rem) {
+  #hero {
+    background: url("../Assets/images/background-image.svg") no-repeat bottom center;
+
+    & img[src*="bars"] {
+      width: 25.75rem;
+    }
   }
 }
